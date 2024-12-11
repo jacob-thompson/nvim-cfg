@@ -17,5 +17,5 @@
   "plenary.nvim": { "branch": "master", "commit": "2d9b06177a975543726ce5c73fca176cedbffe9d" },
   "python-pep8-indent": { "branch": "master", "commit": "60ba5e11a61618c0344e2db190210145083c91f8" },
   "telescope.nvim": { "branch": "master", "commit": "a0bbec21143c7bc5f8bb02e0005fa0b982edc026" },
-  "vim-compilerun": { "branch": "main", "commit": "3efbc89f91c8fe0bd7798e95e2db7b9b52b4654f" }
+  "vim-compilerun": { "branch": "main", "commit": "a88f8ee831382cebf38cdfaa262a4d86121c4083" }
 }
