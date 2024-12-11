@@ -17,6 +17,6 @@ Welcome to my Neovim configuration! This repository contains my personal setup f
 
 Here are some key plugins included in this configuration:
 
-- [LSP Zero](https://github.com/VonHeikemen/lsp-zero.nvim) - Language Server Protocol integration.
-- [Telescope](https://github.com/nvim-telescope/telescope.nvim) - Fuzzy finder and more.
-- [treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - Better syntax highlighting and parsing.
+- [lsp-zero.nvim](https://github.com/VonHeikemen/lsp-zero.nvim) - Language Server Protocol integration.
+- [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) - Fuzzy finder and more.
+- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - Better syntax highlighting and parsing.
