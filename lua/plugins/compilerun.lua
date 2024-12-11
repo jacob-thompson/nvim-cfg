@@ -10,4 +10,4 @@ vim.keymap.set("v", "<F5>", function ()
     vim.cmd.CompileRun()
 end)
 
-return { "jacob-thompson/CompileRun.vim", name = "CompileRun" }
+return { "jacob-thompson/vim-compilerun", name = "vim-compilerun" }
