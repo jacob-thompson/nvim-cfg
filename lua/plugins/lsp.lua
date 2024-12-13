@@ -1,3 +1,5 @@
+vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action)
+
 return {
     "neovim/nvim-lspconfig",
     dependencies = {
