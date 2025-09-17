@@ -45,6 +45,22 @@ return {
                     }
                 end,
 
+                clangd = function()
+                    require("lspconfig").clangd.setup {
+                        capabilities = capabilities,
+                        cmd = {
+                            "clangd",
+                            "--background-index",
+                            "--clang-tidy",
+                            "--completion-style=detailed",
+                            "--header-insertion=iwyu",
+                            "--header-insertion-decorators",
+                        },
+                        filetypes = { "c", "cpp", "objc", "objcpp" },
+                        root_dir = lspconfig.util.root_pattern("compile_commands.json", "compile_flags.txt", ".git"),
+                    }
+                end,
+
                 zls = function()
                     local lspconfig = require("lspconfig")
                     lspconfig.zls.setup({
