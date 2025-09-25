@@ -126,6 +126,10 @@ return {
                 header = "",
                 prefix = "",
             },
+            -- Disable virtual text, signs, and underlines for all severities
+            virtual_text = false,
+            signs = false,
+            underline = false,
         })
     end
 }
