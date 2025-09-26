@@ -6,10 +6,14 @@ return {
         lazy = false, -- Load on startup (not lazy-loaded)
         config = function()
             require("catppuccin").setup({
-                flavour = "mocha",
+                flavour = "auto",
                 integrations = {
                     copilot_vim = true,
                     telescope = { enabled = true },
+                },
+                background = {
+                    light = "latte",
+                    dark = "mocha",
                 },
                 lsp = {
                     styles = {
@@ -32,7 +36,7 @@ return {
                     },
                 },
             })
-            vim.cmd.colorscheme "catppuccin-mocha"
+            vim.cmd.colorscheme "catppuccin"
         end,
     },
 }
