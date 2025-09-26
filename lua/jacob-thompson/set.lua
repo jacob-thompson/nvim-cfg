@@ -23,5 +23,3 @@ vim.g.mapleader = " "
 vim.opt.visualbell = true
 
 vim.opt.ruler = true
-
-vim.cmd("colorscheme peaksea")
