@@ -1,4 +1,5 @@
 vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action)
+vim.keymap.set("n", "<leader>ch", vim.lsp.buf.hover)
 
 return {
     "neovim/nvim-lspconfig",
